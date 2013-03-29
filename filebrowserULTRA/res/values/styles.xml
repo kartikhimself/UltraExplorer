@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+     <style name="app_theme" parent="android:Theme">
+        <item name="android:windowTitleSize">0dip</item>
+        <item name="android:editTextStyle">@style/edittextTheme</item>
+        <item name="android:progressDrawable">@style/HoloProgressBar</item>
+    </style>
+    
+	<style name="Animations" />
+
+	<!-- PopDownMenu -->
+	<style name="Animations.PopDownMenu" />
+	
+	<style name="Animations.PopDownMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+	</style>
+	
+	<style name="Animations.PopDownMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+	</style>
+	
+	<style name="Animations.PopDownMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+	</style>
+	
+	<style name="Animations.PopDownMenu.Reflect">
+		<item name="@android:windowEnterAnimation">@anim/pump_top</item>
+		<item name="@android:windowExitAnimation">@anim/disappear</item>
+	</style>
+	
+	<!-- PopUpMenu -->
+	<style name="Animations.PopUpMenu" />
+	
+	<style name="Animations.PopUpMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+	</style>
+	
+	<style name="Animations.PopUpMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+	</style>
+	
+	<style name="Animations.PopUpMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+	</style>
+	
+	<style name="Animations.PopUpMenu.Reflect">
+		<item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/disappear</item>
+	</style>
+	
+	
+	
+	<!-- ActionBar -->
+   
+	
+	<style name="ActionBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+    <style name="ActionBarItem">
+        <item name="android:layout_width">@dimen/actionbar_item_width</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginLeft">1px</item>
+    </style>
+    <style name="ActionBarHomeItem" parent="ActionBarItem">
+        <item name="android:layout_marginRight">1px</item>
+        <item name="android:layout_marginLeft">0px</item>
+    </style>
+    <style name="ActionBarHomeLogo">
+        <item name="android:layout_marginRight">1px</item>
+        <item name="android:layout_marginLeft">0px</item>
+    </style>
+    <style name="ActionBarProgressBar" parent="@android:style/Widget.ProgressBar.Small">
+    </style>
+	
+   <!-- ProgressBar -->
+   
+   <style name="ProgressBar">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:maxWidth">20.0dip</item>
+		<item name="android:maxHeight">20.0dip</item>
+		<item name="android:indeterminateOnly">true</item>
+		<item name="android:indeterminateDrawable">@drawable/progress_spin</item>
+		<item name="android:indeterminateDuration">3700</item>
+		<item name="android:indeterminateBehavior">repeat</item>
+		<item name="android:minWidth">20.0dip</item>
+		<item name="android:minHeight">20.0dip</item>
+		<item name="android:layout_gravity">center_vertical</item>
+	</style>
+    
+   
+   <style name="ButtonText">
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/icswhite</item>
+		
+	</style>
+	
+   
+  <style name="edittextTheme" parent="@android:style/Widget.EditText">
+ 	<item name="android:focusable">true</item>
+ 	<item name="android:focusableInTouchMode">true</item>
+ 	<item name="android:clickable">true</item>
+ 	<item name="android:background">@drawable/custom_editext</item>
+ 	<item name="android:textColor">@color/icswhite</item>
+ 	<item name="android:gravity">center_vertical</item>
+ 	<item name="android:textColorHighlight">@color/icslightblue</item>
+   </style>
+    
+  <style name="HoloProgressBar" parent ="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seekbar</item>
+        <item name="android:minHeight">15dp</item>
+        <item name="android:maxHeight">15dp</item>
+   </style>
+   
+
+</resources>

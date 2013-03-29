@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    
+ <item
+    android:id="@+id/backup_apps"
+    android:title="Backup Apps"
+    android:icon="@android:drawable/ic_menu_save"
+    />
+ 
+ 
+ 
+ 
+ <item
+    android:id="@+id/manage_apps"
+    android:title="Manage Process"
+    android:icon="@android:drawable/ic_menu_manage"/>
+ 
+  <item
+    android:id="@+id/search_files"
+    android:title="Search"
+    android:icon="@android:drawable/ic_menu_search"/>
+ 
+ 
+ <item
+    android:id="@+id/menu_multiselect"
+    android:title="Multi-Select"
+    android:icon="@android:drawable/ic_menu_slideshow"/>
+ 
+<item
+    android:id="@+id/menu_refresh"
+    android:title="Refresh"
+    android:icon="@android:drawable/ic_menu_revert"/>
+ 
+
+<item
+    android:id="@+id/contact_us"
+    android:title="Contact us"
+    android:icon="@android:drawable/ic_menu_send"/>
+ 
+ 
+ <item
+    android:id="@+id/about_us"
+    android:title="About us"
+    android:icon="@android:drawable/ic_menu_info_details"/>
+ 
+ <item
+    android:id="@+id/app_settings"
+    android:title="Preferences"
+    android:icon="@android:drawable/ic_menu_preferences"/>
+ 
+ 
+ 
+ <item 
+     android:id="@+id/bookmarks"
+     android:title="Bookmarks"
+     android:icon="@android:drawable/ic_menu_add"/>
+    
+
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.markupartist.android.widget.ActionBar
+	    android:id="@+id/actionbar"
+	  
+	    style="@style/ActionBar"
+        />
+    
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="41dp"
+    android:background="@drawable/custom_background">
+    
+	<TextView
+		android:id="@+id/duplicates_label"
+		android:layout_gravity="center_vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:textColor="#FFFFFF"/>
+	
+	</LinearLayout>    
+    
+  <Button
+        android:id="@+id/optionButton"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="41dp"
+        
+        android:onClick="onClick"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button_ics"
+        android:text="Options" />
+    
+    
+ 
+ 
+       <ListView android:id="@+id/android:list"
+           android:divider="@drawable/div"
+           android:choiceMode="multipleChoice"
+           
+android:background="@color/icsblack"
+           android:layout_height="match_parent"
+           android:layout_width="match_parent"/>
+       
+   
+   
+
+   
+    
+    
+                     
+ 
+           
+      
+   
+
+</LinearLayout>

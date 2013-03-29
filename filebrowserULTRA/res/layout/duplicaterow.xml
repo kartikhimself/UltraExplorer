@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/myMain"
+  android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:layout_marginRight="10dp"
+	android:paddingTop="5dp"
+	android:descendantFocusability="blocksDescendants"
+	android:paddingBottom="5dp">
+  
+<ImageView
+	android:id ="@+id/icon"
+	android:layout_width = "50dp"
+	android:layout_height = "50dp"
+	
+	android:layout_alignParentLeft="true" 
+	android:layout_centerVertical="true" 
+	android:paddingRight = "2dp"/>
+
+<com.mirrorlabs.customcheckboxwidget.DontPressWithParentCheckBox
+        android:id="@+id/select_icon"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+		android:layout_alignParentRight="true" 
+		android:layout_centerVertical="true" 
+		android:padding="1dp"/>
+
+<LinearLayout 
+    android:id="@+id/text_layout"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+     android:layout_toLeftOf="@id/select_icon"
+    
+    android:layout_toRightOf="@id/icon" 
+	android:layout_centerVertical="true" 
+    android:orientation="vertical">
+<TextView
+	android:id = "@+id/label"
+	android:paddingLeft="2dp"
+	android:lines="1"
+	android:ellipsize="end"
+	
+	android:layout_width = "200dp"
+	android:layout_height = "wrap_content"
+	android:textStyle = "bold"
+	android:textSize="19dp"/>
+
+<TextView
+	android:id = "@+id/label_info"
+	android:paddingLeft="2dp"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:textStyle = "bold"
+	android:textSize="12dp"/>
+
+<TextView
+	android:id = "@+id/md5_hash"
+	android:paddingLeft="2dp"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:textStyle = "bold"
+	android:textSize="12dp"/>
+
+
+</LinearLayout>
+
+
+
+
+
+</RelativeLayout>

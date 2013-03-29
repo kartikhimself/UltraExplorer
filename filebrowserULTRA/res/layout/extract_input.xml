@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:fillViewport="true"
+       >
+        
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="5dp"
+     android:background="#00000000">
+    
+   
+    <FrameLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    android:background="@drawable/custom_topbottom"
+       
+        ><TextView 
+         android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:paddingLeft="5dp"
+     
+    android:text="Type of File : "/>
+        
+    </FrameLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"  >
+    <TextView 
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:padding="5dp"
+    android:text="Zip"/>
+    <CheckBox  android:layout_width="wrap_content"
+         android:id="@+id/check_zip"
+         android:checked="true"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp" />
+    <TextView 
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:padding="5dp"
+    android:text="Tar"/>
+    <CheckBox  android:layout_width="wrap_content"
+         android:id="@+id/check_tar"
+         android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="@drawable/custom_topbottom">
+    <TextView 
+         android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:paddingLeft="5dp"
+      android:text="Extraction path : "/>
+        
+     </FrameLayout>
+    
+      <LinearLayout 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"  >
+    <TextView 
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:padding="5dp"
+    android:text="Current path :"/>
+    <CheckBox  android:layout_width="wrap_content"
+        android:id="@+id/check_current"
+    android:layout_height="wrap_content"
+    />
+    </LinearLayout>
+     <FrameLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="@drawable/custom_topbottom"
+     >
+    <TextView 
+         android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:paddingLeft="5dp"
+      android:text="Specify path : "/>
+        
+     </FrameLayout>
+    
+     <EditText android:id="@+id/savetext"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:hint="Enter the name"
+    />
+</LinearLayout>
+</ScrollView>

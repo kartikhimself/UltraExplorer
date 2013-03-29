@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="closeDialog"
+    android:background="@color/transparent_black" >
+    
+    <RelativeLayout
+         android:id="@+id/fileSearchLayout"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" >
+        
+    <ImageButton android:id="@+id/explorer_button"
+        android:layout_width="wrap_content"
+        android:background="@color/transparent"
+        android:padding="2dp"
+        android:src="@drawable/explorer48"
+        android:layout_height="wrap_content"/>    
+    <EditText
+        android:id="@+id/fileSearch"
+        android:hint="Search Files"
+        style="@style/edittextTheme"
+        android:layout_toRightOf="@id/explorer_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:singleLine="true"
+        />   
+        
+          
+         
+    </RelativeLayout>
+         
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/grid_borders"
+        android:layout_below="@id/fileSearchLayout"
+        android:layout_marginBottom="5dp"
+        android:divider="@drawable/div"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="2dp"/>
+  <!--      
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="closeDialog"
+        android:src="@drawable/delete1" />   --> 
+         
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

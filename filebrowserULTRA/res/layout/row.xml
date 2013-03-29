@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:id="@+id/row_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  >
+    
+<RelativeLayout
+    android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:layout_marginRight="10dp"
+	android:descendantFocusability="blocksDescendants">
+  
+<ImageView
+	android:id ="@+id/icon"
+	android:layout_width = "50dp"
+	android:layout_height = "50dp"
+    android:layout_alignParentLeft="true" 
+	android:layout_centerVertical="true" 
+	android:paddingRight = "2dp"/>
+
+<RelativeLayout 
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_toLeftOf="@id/select_icon"
+    android:layout_toRightOf="@id/icon" 
+    android:orientation="vertical">
+    
+<TextView
+	android:id = "@+id/label"
+	android:paddingLeft="2dp"
+	android:lines="1"
+	android:layout_centerVertical="true"
+	android:layout_alignParentLeft="true"
+	android:layout_alignParentTop="true"
+	android:ellipsize="end"
+	android:textColor="@color/offWhite"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:textStyle = "bold"
+	android:textSize="15dp"/>
+
+<TextView
+	android:id = "@+id/info"
+	android:paddingTop="5dp"
+	android:paddingLeft="2dp"
+	android:visibility="gone"
+	android:layout_below="@id/label"
+    android:textColor="@color/offWhite"
+	android:layout_alignParentLeft="true"
+	android:layout_alignParentBottom="true"
+    android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:textSize="9dp"/>
+
+<TextView
+	android:id = "@+id/modified"
+	android:paddingRight="1dp"
+    android:textColor="@color/offWhite"
+	android:layout_below="@id/label"
+	android:layout_alignParentRight="true"
+	android:layout_alignParentBottom="true"
+    android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:textSize="10dp"/>
+
+
+
+
+
+</RelativeLayout>
+
+<com.mirrorlabs.customcheckboxwidget.DontPressWithParentCheckBox
+        android:id="@+id/select_icon"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+		android:layout_alignParentRight="true" 
+		android:layout_centerVertical="true" 
+		android:padding="1dp"/>
+
+
+</RelativeLayout>
+</LinearLayout>

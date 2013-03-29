@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/mybg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/skin0">
+
+    <LinearLayout
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="5dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:textColor="#ffffff" />
+
+        
+    </LinearLayout>
+
+    
+    
+    <RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal|bottom"
+	android:gravity="center">
+	
+	<RelativeLayout
+	  	android:id="@+id/playstatus"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	>
+	  	<TextView
+			android:id="@+id/playtime"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+	  		android:layout_centerVertical="true"
+	  		android:text="00:00"
+			/>
+		<TextView
+			android:id="@+id/duration"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+	  		android:layout_centerVertical="true"
+	  		android:text="04:53"
+			/>
+			<SeekBar 
+			android:id="@+id/seekbar" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+		    android:maxHeight = "5dip"
+	        android:max = "100"
+	        android:paddingLeft = "10dip"
+	        android:paddingRight = "10dip"
+	        android:progress="0"
+	        android:secondaryProgress="0" 
+		    android:layout_toRightOf="@id/playtime"
+			android:layout_toLeftOf="@id/duration"
+			android:layout_centerVertical="true"
+			android:progressDrawable="@drawable/seekbar" 
+			android:thumb="@drawable/slider" />
+		</RelativeLayout>
+		
+	<LinearLayout
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:layout_marginTop="20dip"
+		  android:gravity="center"
+		  android:layout_gravity="center"
+		  android:layout_centerHorizontal="true"
+		  android:layout_below="@id/playstatus"
+	  	android:background="@drawable/button"
+		  android:orientation="horizontal">
+			<ImageButton
+				android:id="@+id/last"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:scaleType="fitCenter" 
+			  	android:layout_gravity="center_vertical"
+			  	android:layout_marginRight="30dip"
+			  	android:background="@drawable/latest_selecor"
+				/>
+			<ImageButton
+				android:id="@+id/backward"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:scaleType="fitCenter" 
+			  	android:layout_gravity="center_vertical"
+			  	android:layout_marginRight="30dip"
+			  	android:background="@drawable/rewind_selecor"
+				/>
+			<ImageButton
+				android:id="@+id/play"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:scaleType="fitCenter"
+				android:layout_gravity="center_vertical"
+				android:background="@drawable/pause"
+				/>
+			<ImageButton
+				android:id="@+id/forward"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:scaleType="fitCenter"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="30dip"
+				android:background="@drawable/forward_selecor"
+				/>
+			<ImageButton
+				android:id="@+id/next"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:scaleType="fitCenter"
+				android:layout_marginLeft="30dip"
+				android:background="@drawable/next_selecor"
+				/>
+		
+		</LinearLayout>
+	</RelativeLayout>
+
+    
+</FrameLayout>

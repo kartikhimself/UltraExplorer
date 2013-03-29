@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	 android:id="@+id/manage_view"
+	android:background="@color/black">
+	
+	<com.markupartist.android.widget.ActionBar
+	    android:id="@+id/actionbar"
+	    
+	    style="@style/ActionBar" />
+	
+	  <LinearLayout 
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="41dp"
+       android:gravity="center_vertical"
+       android:background="@drawable/bg_striped">
+	
+	<TextView
+		android:id="@+id/available_mem_label"
+		android:layout_width="fill_parent"
+		android:textSize="12sp"
+		android:layout_height="wrap_content"
+		android:textColor="@color/white"
+		android:layout_marginRight="6dp"
+		android:gravity="right"/>
+	
+	
+	<TextView
+		android:id="@+id/num_processes_label"
+		android:layout_width="match_parent"
+		android:textSize="12dp"
+		android:layout_height="wrap_content"
+		android:textColor="@color/white"
+		android:layout_marginRight="6dp"
+		android:gravity="right"/>
+	
+    </LinearLayout>
+	<ListView
+	    android:id="@+id/android:list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="2"
+	    android:divider="@drawable/div"
+	    android:background="@color/icsblack"
+	     android:cacheColorHint="@color/icsblack"
+	    android:clickable="true"
+	   android:smoothScrollbar="true" >
+
+	</ListView>
+	
+	<LinearLayout android:layout_width="match_parent"
+	    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+    
+	
+	
+	
+	<Button
+	    android:id="@+id/cancel_button"
+	    android:layout_width="160dp"
+	    android:layout_height="40dp"
+	    android:layout_marginRight="2dp"
+	    android:background="@drawable/custom_button_ics"
+	    android:text="Cancel"
+	    android:onClick="onClick"
+	    android:textSize="15dp"
+	    android:textColor="#FFFFFF"
+	    android:textStyle="bold" />
+	
+	<Button
+	    android:id="@+id/killall_button"
+	    android:layout_width="160dp"
+	    android:layout_height="40dp"
+	    android:layout_marginLeft="2dp"
+	    android:background="@drawable/custom_button_ics"
+	    android:text="Kill all"
+	    android:onClick="onClick"
+	    android:textSize="15dp"
+	    
+	    android:textColor="#FFFFFF"
+	    android:textStyle="bold" />
+	</LinearLayout>
+	
+	
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/progress">
+		<clip android:drawable="@drawable/progress_pri_holo" />
+	</item>
+	<item android:id="@+id/background" android:drawable="@drawable/progress_bg_holo" />
+</layer-list>

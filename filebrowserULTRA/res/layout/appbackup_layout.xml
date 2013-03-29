@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/black"
+	 android:id="@+id/backup_view"
+	>
+	<com.markupartist.android.widget.ActionBar
+	    android:id="@+id/actionbar"
+	  
+	    style="@style/ActionBar"
+        />
+	 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="41dp"
+    android:background="@drawable/bg_striped">
+    
+	<TextView
+		android:id="@+id/backup_label"
+		android:layout_gravity="center_vertical"
+		android:layout_width="fill_parent"
+		android:layout_weight="1"
+	    android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:textColor="#FFFFFF"/>
+	
+	<Button
+            android:id="@+id/selectButton"
+            android:text="Select all"
+            android:textColor="@color/icsdarkblue"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/custom_button1"
+		    android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textStyle="bold"
+            android:onClick="onClick"
+            android:textSize="15dp"
+            android:layout_weight="3"
+            android:layout_marginRight="7dp"/>
+	     
+	           
+	
+	</LinearLayout>
+	<ListView
+		android:id="@+id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="2"
+		android:longClickable="true"
+		android:divider="@drawable/div"
+		android:background="@color/icsblack"
+		android:cacheColorHint="@color/icsblack"
+		android:smoothScrollbar="true"
+		/>
+<LinearLayout android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+    
+    
+	
+	<Button
+	    android:id="@+id/cancel_button"
+	    android:layout_width="160dp"
+	    android:layout_height="40dp"
+	    android:layout_marginRight="2dp"
+	    android:background="@drawable/custom_button_ics"
+	    android:text="Cancel"
+	    android:onClick="onClick"
+	    android:textSize="15dp"
+	    android:textColor="#FFFFFF"
+	    android:textStyle="bold" />
+	
+	<Button
+	    android:id="@+id/backup_button_all"
+	    android:layout_width="160dp"
+	    android:layout_height="40dp"
+	    android:background="@drawable/custom_button_ics"
+	    android:text="Backup"
+	    android:textSize="15dp"
+	     android:onClick="onClick"
+	    android:layout_marginLeft="2dp"
+	    android:textColor="#FFFFFF"
+	    android:textStyle="bold" />
+	</LinearLayout>
+	
+
+</LinearLayout>

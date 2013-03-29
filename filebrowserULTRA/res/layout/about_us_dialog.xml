@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<ScrollView
+     
+      android:fillViewport="true"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+      
+     <RelativeLayout 
+         android:layout_width="match_parent"
+          android:padding="20dp"
+         android:layout_height="wrap_content">
+         
+         <TextView 
+             android:id="@+id/name_app"
+             android:layout_centerHorizontal="true"
+             android:text="Ultra Explorer"
+             android:textColor="@color/icswhite"
+             android:paddingBottom="10dp"
+             android:textSize="25dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+         
+         <TextView 
+             android:id="@+id/version_app"
+             android:layout_below="@id/name_app"
+             android:paddingTop="10dp"
+             android:textSize="20sp"
+             android:layout_centerHorizontal="true"
+             android:text="Version 1.0"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+         
+          <TextView 
+             android:id="@+id/name_developer"
+             android:layout_below="@id/version_app"
+             android:paddingTop="10dp"
+             android:textSize="17sp"
+             android:layout_centerHorizontal="true"
+             android:text="Developed By : Kartik Sharma"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+          
+           <TextView 
+             android:id="@+id/name_twitter"
+             android:layout_centerHorizontal="true"
+             android:layout_below="@id/name_developer"
+             android:text="( kshark27 )"
+             android:textSize="25sp"
+             android:textColor="@color/icsdarkblue"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+         
+         <ImageView 
+             android:id="@+id/icon_app"
+             android:layout_below="@id/name_twitter"
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:padding="2dp"
+             
+             android:layout_marginLeft="30dp"
+             android:layout_marginBottom="15dp"
+             
+             android:layout_centerHorizontal="false"
+             android:src="@drawable/explorer92_new"/>
+         
+     <ImageView android:layout_width="70dp"
+             android:id="@+id/icon_company"
+             android:layout_below="@id/name_twitter"
+             android:padding="2dp"
+             android:layout_height="70dp"
+             android:layout_marginRight="30dp"
+             android:layout_marginBottom="15dp"
+             
+             android:layout_alignParentRight="true"
+             android:src="@drawable/kshark27" />  
+         
+         
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:layout_below="@id/icon_app"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             >
+             
+              
+         <Button
+              android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/contact_button"
+             
+             android:layout_weight="1"
+             android:text="Email"/>
+         
+          <Button
+              android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/market_link"
+             android:layout_weight="1"
+             android:layout_marginLeft="1dp"
+             android:text="Market"/>
+         
+         
+         
+          <Button
+             android:id="@+id/cancel_button"
+             android:layout_weight="1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="1dp"
+             android:text="Cancel"/>
+            
+          </LinearLayout>
+         
+         
+         
+     </RelativeLayout>
+
+    
+
+
+        
+   
+</ScrollView>
+</merge>  
+

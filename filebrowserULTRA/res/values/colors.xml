@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 Johan Nilsson <http://markupartist.com>
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <color name="actionbar_separator">#3d4544</color>
+    <color name="actionbar_title">#33B5E5</color>
+    <color name="actionbar_background_start">#222222</color>
+    <color name="actionbar_background_centre">#424242</color>
+    <color name="actionbar_background_end">#222222</color>
+    <color name="actionbar_background_item_pressed_start">#177BBD</color>
+    <color name="actionbar_background_item_pressed_end">#33B5E5</color>
+    <color name="white">#FFFFFF</color>
+	<color name="offWhite">#DDDDDD</color>
+	<color name="black">#000000</color>
+	<color name="darkGray">#333333</color>
+	<color name="lightGray">#777777</color>
+	<color name="brightRed">#FF0000</color>
+	<color name="brightGreen">#00FF00</color>
+	<color name="brightBlue">#0000FF</color>
+	<color name="darkBlue">#880000FF</color>
+	<color name="transparent">#000000FF</color>
+	<color name="transGray">#cc444444</color>
+	<color name="SpringGreen">#4AA02C</color>
+	<color name="grayDivider">#3d4544</color>
+	<color name="icslightblue">#33B5E5</color>
+	<color name="icsdarkblue">#177BBD</color>
+	<color name="icsgrey">#555555</color>
+	<color name="icsblack">#222222</color>
+	<color name="icswhite">#F9F9F9</color>
+	<color name="transparent_black">#aa000000</color>
+    <color name="opaque_black">#9a000000</color>
+     <color name="gesture_color">#FFFFFF00</color>
+    
+	
+</resources>

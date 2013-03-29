@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  >
+
+<RelativeLayout
+  
+  android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	
+	android:layout_gravity="center_horizontal"
+	android:gravity="center_horizontal"
+	android:descendantFocusability="blocksDescendants"
+	android:paddingTop="5dp"
+	android:paddingBottom="5dp">
+	
+ 
+    
+
+<LinearLayout 
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_centerInParent="true"
+	android:layout_centerVertical="true" 
+    android:orientation="vertical">    
+    
+  
+<ImageView
+	android:id ="@+id/icon_grid"
+	android:layout_width = "60dp"
+	android:layout_height = "60dp"
+	android:layout_gravity="center_horizontal"/>
+
+
+<TextView
+	android:id = "@+id/label_grid"
+	android:layout_width = "wrap_content"
+	android:layout_height = "wrap_content"
+	android:gravity="center_horizontal"
+	android:layout_gravity="center_horizontal"
+	android:textStyle = "bold"
+	android:textColor="@color/offWhite"
+	android:layout_marginLeft="2dp"
+	android:layout_marginRight="2dp"
+	android:textSize="15dp"
+    android:lines="2"
+    android:ellipsize="end"
+        
+	
+	
+	/>
+</LinearLayout>
+
+<com.mirrorlabs.customcheckboxwidget.DontPressWithParentCheckBox
+        android:id="@+id/select_icon_grid"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true" 
+		android:padding="1dp"/>
+
+
+
+
+
+</RelativeLayout>
+</LinearLayout>

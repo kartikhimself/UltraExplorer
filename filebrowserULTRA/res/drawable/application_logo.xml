@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/android_big" />
+ 
+    <item
+        
+        android:state_focused="true"
+        android:drawable="@drawable/android_mdpi" />
+ 
+    <item
+        android:drawable="@drawable/android_normal" />
+ 
+</selector>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    >
+      
+     <ImageView android:id="@+id/header_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="5dip"/>
+
+    <TextView android:id="@+id/header_title"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="left|center_vertical"
+        android:paddingTop="5dip"
+        android:textSize="22dp"
+        android:paddingBottom="5dip"
+       
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/icslightblue"
+        android:textStyle="bold"
+       
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone"
+        />
+    </LinearLayout>
+
+    <ListView android:id="@+id/items"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/div"
+        android:background="@color/icsblack"
+        android:cacheColorHint="@android:color/transparent"
+        />
+</LinearLayout>
