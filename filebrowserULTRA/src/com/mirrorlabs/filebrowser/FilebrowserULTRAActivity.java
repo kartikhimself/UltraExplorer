@@ -234,11 +234,7 @@ public class FilebrowserULTRAActivity extends ListActivity implements
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		if (!getMounted()) {
-			fatalError("Fatal error",
-					"Cannot find sdcard. Perhaps your sdcard is not mounted ?");
-			return;
-		}
+	
 		setContentView(R.layout.main);
 		// Toast.makeText(FilebrowserULTRAActivity.this," allocated size  = " +
 		// getAsString(Debug.getNativeHeapAllocatedSize()), 1).show();
@@ -522,11 +518,9 @@ public class FilebrowserULTRAActivity extends ListActivity implements
 			}
 		}
 		else{
-
-			f = Environment.getRootDirectory();
-			if (f != null) {
-				root = f.getAbsolutePath();
-			}
+                        fatalError("Fatal error",
+					"Cannot find sdcard. Perhaps your sdcard is not mounted ?");                            
+		
 		}
 
 	}
