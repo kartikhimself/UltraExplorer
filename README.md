@@ -12,8 +12,5 @@ explorer than it's now . Any help regarding coding and questions u may have u ca
 
 The Opensource Code from Ultra Explorer is Used in OTG File Explorer too
 
-```html
-<a href="https://play.google.com/store/apps/details?id=com.droidkitchen.filemanager">
-  <img alt="Android app on Google Play"
-       src="https://developer.android.com/images/brand/en_app_rgb_wo_60.png" />
-</a>
+<center>[![Alt Description](https://developer.android.com/images/brand/en_app_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.droidkitchen.filemanager)</center>
+
