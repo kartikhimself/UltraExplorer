@@ -10,6 +10,10 @@ explorer than it's now . Any help regarding coding and questions u may have u ca
 ![alt tag](http://i.imgur.com/ybKuceV.png)    ![alt tag](http://i.imgur.com/hC2SlBs.png)
 ![alt tag](http://i.imgur.com/mfl9u40.png)    ![alt tag](http://i.imgur.com/qsyAIUo.png)
 
+The Opensource Code from Ultra Explorer is Used in OTG File Explorer too
 
-
-
+```html
+<a href="https://play.google.com/store/apps/details?id=com.droidkitchen.filemanager">
+  <img alt="Android app on Google Play"
+       src="https://developer.android.com/images/brand/en_app_rgb_wo_60.png" />
+</a>
