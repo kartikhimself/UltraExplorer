@@ -12,5 +12,5 @@ explorer than it's now . Any help regarding coding and questions u may have u ca
 
 The Opensource Code from Ultra Explorer is Used in OTG File Explorer too
 
-<center>[![Alt Description](https://gator4190.hostgator.com//www/ksharkapps.com/img/install_google_play_240.png)](https://play.google.com/store/apps/details?id=com.droidkitchen.filemanager)</center>
+<center>[![Alt Description](http://ksharkapps.com/img/install_google_play_240.png)](https://play.google.com/store/apps/details?id=com.droidkitchen.filemanager)</center>
 
