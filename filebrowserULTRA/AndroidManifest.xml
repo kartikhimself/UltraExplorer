@@ -8,10 +8,7 @@
     <uses-permission android:name="android.permission.INTERNET" /><uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
     
-   
-    
-    
-    
+  
 
     <application
         android:name="MyApplication"
@@ -163,20 +160,20 @@
          <activity android:name=".PreferenceActivity" android:label="@string/settings" />
          
         
-         <provider
+                 <provider
 		    android:name=".BookmarksProvider"
 		    android:authorities="com.mirrorlabs.filebrowser.bookmarks"></provider>
          
-        <receiver android:name="com.mirrorlabs.widgets.ExampleAppWidgetProvider" android:label="Ultra Search">
+                <receiver android:name="com.mirrorlabs.widgets.ExampleAppWidgetProvider" android:label="Ultra Search">
 	           <intent-filter>
 	               <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 	           </intent-filter>
 	                <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info" />
 	        </receiver>
+	        
             <service android:name="com.mirrorlabs.widgets.UpdateWidgetService"></service>
             
             
-         
       
         
     </application>
