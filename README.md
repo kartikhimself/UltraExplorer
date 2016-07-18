@@ -10,12 +10,7 @@ explorer than it's now. For any help regarding coding and questions, you can con
 ![alt tag](http://i.imgur.com/ybKuceV.png)    ![alt tag](http://i.imgur.com/hC2SlBs.png)
 ![alt tag](http://i.imgur.com/mfl9u40.png)    ![alt tag](http://i.imgur.com/qsyAIUo.png)
 
-The Premium Edition of Ultra Explorer can be found here
-
-<center>[![Alt Description](http://ksharkapps.com/img/install_google_play_240.png)](https://play.google.com/store/apps/details?id=com.ksharkapps.filebrowser)</center>
-
-
-You can check out the new unlocked features using the free version for 3 days here
+You can check out the new version of the explorer here
 
 <center>[![Alt Description](http://ksharkapps.com/img/install_google_play_240.png)](https://play.google.com/store/apps/details?id=com.ksharkapps.filebrowserlite)</center>
 
