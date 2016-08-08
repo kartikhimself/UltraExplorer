@@ -14,4 +14,10 @@ You can check out the new version of the explorer here
 
 <center>[![Alt Description](http://ksharkapps.com/img/install_google_play_240.png)](https://play.google.com/store/apps/details?id=com.ksharkapps.filebrowserlite)</center>
 
+Apps on the market using Ultra Explorer's codebase
+
+https://play.google.com/store/apps/details?id=com.meamobile.filemanager
+
+https://play.google.com/store/apps/details?id=com.droidkitchen.filemanager
+
 
