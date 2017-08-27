@@ -12,9 +12,9 @@ explorer than it's now. For any help regarding coding and questions, you can con
 
 You can check out the new version of the explorer here
 
-<center>![Alt Description](http://ksharkapps.com/img/install_google_play_240.png)(https://play.google.com/store/apps/details?id=com.ksharkapps.filebrowserlite)</center>
+https://play.google.com/store/apps/details?id=com.ksharkapps.filebrowserlite
 
-Apps on the market using Ultra Explorer's codebase
+Apps on the market using Ultra Explorer's codebase 
 
 https://play.google.com/store/apps/details?id=com.meamobile.filemanager
 
